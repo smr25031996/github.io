@@ -40,3 +40,10 @@ h3 {
     z-index: 1000;
 }
 
+.custom-nav {
+    margin-left: auto !important;
+  }
+ 
+  h5,p{
+    color: #dc1539;
+  }
