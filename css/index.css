@@ -1,14 +1,18 @@
 :root {
-    --primary-color: #FFFFFF;  /* White */
+    --primary-color: #FFFFFF;
+    /* White */
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #FF385C; /* Airbnb red */
+    color: #FF385C;
+    /* Airbnb red */
 
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,18 +22,21 @@ h1, h2, h3 {
 }
 
 .navbar .navbar-brand {
-    color: #FF385C; /* Airbnb red */
+    color: #FF385C;
+    /* Airbnb red */
 }
 
 /* .nav-link {
     color: #333; /* Dark gray text */
-/* } */ */
-#logo{
-        border-radius: 50%;
-    }
-    .fixed-navbar {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 1000;
-      }
+/* } */
+*/ #logo {
+    border-radius: 50%;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
