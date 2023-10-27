@@ -18,42 +18,50 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/index.css" />
-   
+    <style>
+      /* Custom styles for fixed navbar */
+      
+    </style>
     <title>Jewel@99</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Jewel@99</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="navbar-brand" href="/index.html">Jewel@99</a>
+        
+        <div class="collapse navbar-text"  id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="/index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./html/about.html">About</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="/html/about.html">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./html/register.html">Regiser</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="/html/register.html">Register</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./html/login.html">Login</a>
+            <li class="nav-item active">
+                <a class="nav-link active" href="/html/login.html">Login</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./html/cart.html">Cart</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/html/cart.html">Cart</a>
               </li>
           </ul>
         </div>
       </nav>
     </header>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script>
+      // Add a class to the navbar when the user scrolls
+      window.onscroll = function() {
+        var navbar = document.querySelector(".navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("fixed-navbar");
+        } else {
+          navbar.classList.remove("fixed-navbar");
+        }
+      };
+    </script>
   </body>
 </html>

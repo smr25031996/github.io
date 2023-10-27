@@ -4,6 +4,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #FF385C; /* Airbnb red */
+
 }
 
 h1, h2, h3 {
@@ -19,9 +21,15 @@ h1, h2, h3 {
     color: #FF385C; /* Airbnb red */
 }
 
-.nav-link {
+/* .nav-link {
     color: #333; /* Dark gray text */
-}
+/* } */ */
 #logo{
         border-radius: 50%;
     }
+    .fixed-navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+      }
