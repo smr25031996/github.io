@@ -121,6 +121,9 @@ var products = [
   },
 ];
 
+
+
+
 // Loop through the products and generate product cards
 const productContainer = document.getElementById("product-container");
 products.forEach((product) => {
@@ -144,3 +147,11 @@ products.forEach((product) => {
         `;
   productContainer.appendChild(productCard);
 });
+
+// console.log(JSON.stringify(products));
+
+
+
+
+
+
